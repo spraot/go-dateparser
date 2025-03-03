@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	dps "github.com/markusmobius/go-dateparser"
+	dps "github.com/spraot/go-dateparser"
 )
 
 func main() {

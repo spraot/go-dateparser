@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/markusmobius/go-dateparser/internal/strutil"
+	"github.com/spraot/go-dateparser/internal/strutil"
 	"github.com/stretchr/testify/assert"
 )
 

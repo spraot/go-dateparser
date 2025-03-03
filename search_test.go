@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	dps "github.com/markusmobius/go-dateparser"
+	dps "github.com/spraot/go-dateparser"
 	"github.com/stretchr/testify/assert"
 )
 

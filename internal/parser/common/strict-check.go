@@ -3,8 +3,8 @@ package common
 import (
 	"fmt"
 
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
+	"github.com/spraot/go-dateparser/internal/setting"
+	"github.com/spraot/go-dateparser/internal/strutil"
 )
 
 func CheckStrictParsing(cfg *setting.Configuration, missingParts strutil.Dict) error {

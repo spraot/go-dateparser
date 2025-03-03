@@ -3,11 +3,11 @@ package language
 import (
 	"strings"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/digit"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	"github.com/spraot/go-dateparser/internal/data"
+	"github.com/spraot/go-dateparser/internal/digit"
+	"github.com/spraot/go-dateparser/internal/setting"
+	"github.com/spraot/go-dateparser/internal/strutil"
+	"github.com/spraot/go-dateparser/internal/timezone"
 )
 
 func TranslateSearch(cfg *setting.Configuration, ld *data.LocaleData, str string) ([]string, []string) {

@@ -6,7 +6,7 @@ import (
 	"sort"
 
 	"github.com/elliotchance/pie/v2"
-	"github.com/markusmobius/go-dateparser/internal/regexp"
+	"github.com/spraot/go-dateparser/internal/regexp"
 )
 
 type LocaleData struct {

@@ -4,10 +4,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/parser/common"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	"github.com/spraot/go-dateparser/date"
+	"github.com/spraot/go-dateparser/internal/parser/common"
+	"github.com/spraot/go-dateparser/internal/setting"
+	"github.com/spraot/go-dateparser/internal/timezone"
 )
 
 // Parse the specified string using one of the specified formats.

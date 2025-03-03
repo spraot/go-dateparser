@@ -4,8 +4,8 @@ import (
 	"errors"
 	"unicode"
 
-	"github.com/markusmobius/go-dateparser/internal/regexp"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
+	"github.com/spraot/go-dateparser/internal/regexp"
+	"github.com/spraot/go-dateparser/internal/strutil"
 	"golang.org/x/text/unicode/rangetable"
 )
 

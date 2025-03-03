@@ -6,17 +6,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/language"
-	"github.com/markusmobius/go-dateparser/internal/parser/absolute"
-	"github.com/markusmobius/go-dateparser/internal/parser/formatted"
-	"github.com/markusmobius/go-dateparser/internal/parser/nospace"
-	"github.com/markusmobius/go-dateparser/internal/parser/relative"
-	"github.com/markusmobius/go-dateparser/internal/parser/timestamp"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	"github.com/spraot/go-dateparser/date"
+	"github.com/spraot/go-dateparser/internal/data"
+	"github.com/spraot/go-dateparser/internal/language"
+	"github.com/spraot/go-dateparser/internal/parser/absolute"
+	"github.com/spraot/go-dateparser/internal/parser/formatted"
+	"github.com/spraot/go-dateparser/internal/parser/nospace"
+	"github.com/spraot/go-dateparser/internal/parser/relative"
+	"github.com/spraot/go-dateparser/internal/parser/timestamp"
+	"github.com/spraot/go-dateparser/internal/setting"
+	"github.com/spraot/go-dateparser/internal/strutil"
+	"github.com/spraot/go-dateparser/internal/timezone"
 )
 
 // Parser is object that handles language detection, translation and subsequent

@@ -5,9 +5,9 @@ import (
 	"sort"
 	"unicode"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
+	"github.com/spraot/go-dateparser/internal/data"
+	"github.com/spraot/go-dateparser/internal/setting"
+	"github.com/spraot/go-dateparser/internal/strutil"
 )
 
 func DetectFullTextLanguage(cfg *setting.Configuration, str string,

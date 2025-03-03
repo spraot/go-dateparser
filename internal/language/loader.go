@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
+	"github.com/spraot/go-dateparser/internal/data"
+	"github.com/spraot/go-dateparser/internal/strutil"
 )
 
 // GetLocales returns list of locale data based on the specified `locales`, `languages` and `region`.

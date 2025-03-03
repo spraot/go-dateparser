@@ -5,7 +5,7 @@ This package provides functionality to easily parse localized dates in almost an
 To use it, install the package inside your project:
 
 ```
-go get -u -v github.com/markusmobius/go-dateparser
+go get -u -v github.com/spraot/go-dateparser
 ```
 
 ## Table of Contents
@@ -382,8 +382,8 @@ import (
 	"fmt"
 	"strings"
 
-	dps "github.com/markusmobius/go-dateparser"
-	"github.com/markusmobius/go-dateparser/date"
+	dps "github.com/spraot/go-dateparser"
+	"github.com/spraot/go-dateparser/date"
 	"github.com/pemistahl/lingua-go"
 )
 
@@ -528,20 +528,20 @@ If you wish to extend the data of an existing language, or add data for a new la
 
 Just like the original, this package is licensed under [BSD-3 License][bsd3].
 
-[go-ref-icon]: https://pkg.go.dev/badge/github.com/markusmobius/go-dateparser.svg
-[go-ref]: https://pkg.go.dev/github.com/markusmobius/go-dateparser
+[go-ref-icon]: https://pkg.go.dev/badge/github.com/spraot/go-dateparser.svg
+[go-ref]: https://pkg.go.dev/github.com/spraot/go-dateparser
 [original]: https://github.com/scrapinghub/dateparser
 [original-commit]: https://github.com/scrapinghub/dateparser/tree/748e48a
 [original-tag]: https://github.com/scrapinghub/dateparser/releases/tag/v1.2.0
-[dps-parse]: https://pkg.go.dev/github.com/markusmobius/go-dateparser#Parse
-[dps-jalali]: https://pkg.go.dev/github.com/markusmobius/go-dateparser#ParseJalali
-[dps-hijri]: https://pkg.go.dev/github.com/markusmobius/go-dateparser#ParseHijri
-[dps-search]: https://pkg.go.dev/github.com/markusmobius/go-dateparser#Search
-[dps-search-result]: https://pkg.go.dev/github.com/markusmobius/go-dateparser#SearchResult
-[dps-config]: https://pkg.go.dev/github.com/markusmobius/go-dateparser#Configuration
-[dps-parser]: https://pkg.go.dev/github.com/markusmobius/go-dateparser#Parser
-[dps-parser-type]: https://pkg.go.dev/github.com/markusmobius/go-dateparser#ParserType
-[dps-locale-list]: https://github.com/markusmobius/go-dateparser/blob/main/internal/data/04-locale-order.go
+[dps-parse]: https://pkg.go.dev/github.com/spraot/go-dateparser#Parse
+[dps-jalali]: https://pkg.go.dev/github.com/spraot/go-dateparser#ParseJalali
+[dps-hijri]: https://pkg.go.dev/github.com/spraot/go-dateparser#ParseHijri
+[dps-search]: https://pkg.go.dev/github.com/spraot/go-dateparser#Search
+[dps-search-result]: https://pkg.go.dev/github.com/spraot/go-dateparser#SearchResult
+[dps-config]: https://pkg.go.dev/github.com/spraot/go-dateparser#Configuration
+[dps-parser]: https://pkg.go.dev/github.com/spraot/go-dateparser#Parser
+[dps-parser-type]: https://pkg.go.dev/github.com/spraot/go-dateparser#ParserType
+[dps-locale-list]: https://github.com/spraot/go-dateparser/blob/main/internal/data/04-locale-order.go
 [tabular-hijri]: https://en.wikipedia.org/wiki/Tabular_Islamic_calendar
 [umm-al-qura]: https://webspace.science.uu.nl/~gent0113/islam/ummalqura.htm
 [lingua-go]: https://github.com/pemistahl/lingua-go
